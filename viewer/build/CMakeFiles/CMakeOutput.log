@@ -28,30 +28,30 @@ The CXX compiler identification is AppleClang, found in "/Users/Parker/Documents
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5f272/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5f272.dir/build.make CMakeFiles/cmTC_5f272.dir/build
-Building C object CMakeFiles/cmTC_5f272.dir/testCCompiler.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_5f272.dir/testCCompiler.c.o   -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_5f272
-/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f272.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5f272.dir/testCCompiler.c.o  -o cmTC_5f272  
+Run Build Command:"/usr/bin/make" "cmTC_b980a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b980a.dir/build.make CMakeFiles/cmTC_b980a.dir/build
+Building C object CMakeFiles/cmTC_b980a.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_b980a.dir/testCCompiler.c.o   -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_b980a
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b980a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b980a.dir/testCCompiler.c.o  -o cmTC_b980a  
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5ba3e/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5ba3e.dir/build.make CMakeFiles/cmTC_5ba3e.dir/build
-Building C object CMakeFiles/cmTC_5ba3e.dir/CMakeCCompilerABI.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_5ba3e.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_5ba3e
-/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ba3e.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5ba3e.dir/CMakeCCompilerABI.c.o  -o cmTC_5ba3e   
+Run Build Command:"/usr/bin/make" "cmTC_d7dc6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d7dc6.dir/build.make CMakeFiles/cmTC_d7dc6.dir/build
+Building C object CMakeFiles/cmTC_d7dc6.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_d7dc6.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d7dc6
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7dc6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d7dc6.dir/CMakeCCompilerABI.c.o  -o cmTC_d7dc6   
 Apple LLVM version 8.0.0 (clang-800.0.42.1)
 Target: x86_64-apple-darwin15.6.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_5ba3e -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5ba3e.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_d7dc6 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d7dc6.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-274.2
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
@@ -64,18 +64,18 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5ba3e/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5ba3e.dir/build.make CMakeFiles/cmTC_5ba3e.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_5ba3e.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_5ba3e.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_5ba3e]
-  ignore line: [/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ba3e.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5ba3e.dir/CMakeCCompilerABI.c.o  -o cmTC_5ba3e   ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d7dc6/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d7dc6.dir/build.make CMakeFiles/cmTC_d7dc6.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_d7dc6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_d7dc6.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d7dc6]
+  ignore line: [/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7dc6.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d7dc6.dir/CMakeCCompilerABI.c.o  -o cmTC_d7dc6   ]
   ignore line: [Apple LLVM version 8.0.0 (clang-800.0.42.1)]
   ignore line: [Target: x86_64-apple-darwin15.6.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_5ba3e -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5ba3e.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_d7dc6 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d7dc6.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-dynamic] ==> ignore
@@ -86,11 +86,11 @@ Parsed C implicit link information from above output:
     arg [-syslibroot] ==> ignore
     arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5ba3e] ==> ignore
+    arg [cmTC_d7dc6] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_5ba3e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d7dc6.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
@@ -109,13 +109,13 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_55428/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_55428.dir/build.make CMakeFiles/cmTC_55428.dir/build
-Building C object CMakeFiles/cmTC_55428.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -std=c11 -o CMakeFiles/cmTC_55428.dir/feature_tests.c.o   -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_55428
-/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55428.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_55428.dir/feature_tests.c.o  -o cmTC_55428  
+Run Build Command:"/usr/bin/make" "cmTC_e68ba/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e68ba.dir/build.make CMakeFiles/cmTC_e68ba.dir/build
+Building C object CMakeFiles/cmTC_e68ba.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -std=c11 -o CMakeFiles/cmTC_e68ba.dir/feature_tests.c.o   -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_e68ba
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e68ba.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e68ba.dir/feature_tests.c.o  -o cmTC_e68ba  
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -127,13 +127,13 @@ Linking C executable cmTC_55428
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2ceef/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2ceef.dir/build.make CMakeFiles/cmTC_2ceef.dir/build
-Building C object CMakeFiles/cmTC_2ceef.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -std=c99 -o CMakeFiles/cmTC_2ceef.dir/feature_tests.c.o   -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_2ceef
-/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ceef.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2ceef.dir/feature_tests.c.o  -o cmTC_2ceef  
+Run Build Command:"/usr/bin/make" "cmTC_47fe1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_47fe1.dir/build.make CMakeFiles/cmTC_47fe1.dir/build
+Building C object CMakeFiles/cmTC_47fe1.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -std=c99 -o CMakeFiles/cmTC_47fe1.dir/feature_tests.c.o   -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_47fe1
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47fe1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_47fe1.dir/feature_tests.c.o  -o cmTC_47fe1  
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -145,13 +145,13 @@ Linking C executable cmTC_2ceef
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bf9c4/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bf9c4.dir/build.make CMakeFiles/cmTC_bf9c4.dir/build
-Building C object CMakeFiles/cmTC_bf9c4.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -std=c90 -o CMakeFiles/cmTC_bf9c4.dir/feature_tests.c.o   -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_bf9c4
-/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf9c4.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bf9c4.dir/feature_tests.c.o  -o cmTC_bf9c4  
+Run Build Command:"/usr/bin/make" "cmTC_dbdce/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dbdce.dir/build.make CMakeFiles/cmTC_dbdce.dir/build
+Building C object CMakeFiles/cmTC_dbdce.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -std=c90 -o CMakeFiles/cmTC_dbdce.dir/feature_tests.c.o   -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_dbdce
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbdce.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dbdce.dir/feature_tests.c.o  -o cmTC_dbdce  
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -161,30 +161,30 @@ Linking C executable cmTC_bf9c4
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_53e11/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_53e11.dir/build.make CMakeFiles/cmTC_53e11.dir/build
-Building CXX object CMakeFiles/cmTC_53e11.dir/testCXXCompiler.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_53e11.dir/testCXXCompiler.cxx.o -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
-Linking CXX executable cmTC_53e11
-/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53e11.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_53e11.dir/testCXXCompiler.cxx.o  -o cmTC_53e11  
+Run Build Command:"/usr/bin/make" "cmTC_af0e7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_af0e7.dir/build.make CMakeFiles/cmTC_af0e7.dir/build
+Building CXX object CMakeFiles/cmTC_af0e7.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_af0e7.dir/testCXXCompiler.cxx.o -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_af0e7
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af0e7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_af0e7.dir/testCXXCompiler.cxx.o  -o cmTC_af0e7  
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4e5c8/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4e5c8.dir/build.make CMakeFiles/cmTC_4e5c8.dir/build
-Building CXX object CMakeFiles/cmTC_4e5c8.dir/CMakeCXXCompilerABI.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_4e5c8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_4e5c8
-/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e5c8.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_4e5c8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4e5c8   
+Run Build Command:"/usr/bin/make" "cmTC_846ae/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_846ae.dir/build.make CMakeFiles/cmTC_846ae.dir/build
+Building CXX object CMakeFiles/cmTC_846ae.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_846ae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_846ae
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_846ae.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_846ae.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_846ae   
 Apple LLVM version 8.0.0 (clang-800.0.42.1)
 Target: x86_64-apple-darwin15.6.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_4e5c8 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4e5c8.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_846ae -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_846ae.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-274.2
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
@@ -197,18 +197,18 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4e5c8/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4e5c8.dir/build.make CMakeFiles/cmTC_4e5c8.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_4e5c8.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_4e5c8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_4e5c8]
-  ignore line: [/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e5c8.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_4e5c8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4e5c8   ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_846ae/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_846ae.dir/build.make CMakeFiles/cmTC_846ae.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_846ae.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_846ae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_846ae]
+  ignore line: [/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_846ae.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_846ae.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_846ae   ]
   ignore line: [Apple LLVM version 8.0.0 (clang-800.0.42.1)]
   ignore line: [Target: x86_64-apple-darwin15.6.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_4e5c8 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4e5c8.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_846ae -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_846ae.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-dynamic] ==> ignore
@@ -219,11 +219,11 @@ Parsed CXX implicit link information from above output:
     arg [-syslibroot] ==> ignore
     arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4e5c8] ==> ignore
+    arg [cmTC_846ae] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_4e5c8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_846ae.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/lib/darwin/libclang_rt.osx.a]
@@ -243,13 +243,13 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a29ec/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a29ec.dir/build.make CMakeFiles/cmTC_a29ec.dir/build
-Building CXX object CMakeFiles/cmTC_a29ec.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -std=c++14 -o CMakeFiles/cmTC_a29ec.dir/feature_tests.cxx.o -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_a29ec
-/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a29ec.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a29ec.dir/feature_tests.cxx.o  -o cmTC_a29ec  
+Run Build Command:"/usr/bin/make" "cmTC_21dda/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_21dda.dir/build.make CMakeFiles/cmTC_21dda.dir/build
+Building CXX object CMakeFiles/cmTC_21dda.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -std=c++14 -o CMakeFiles/cmTC_21dda.dir/feature_tests.cxx.o -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_21dda
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21dda.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_21dda.dir/feature_tests.cxx.o  -o cmTC_21dda  
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -314,13 +314,13 @@ Linking CXX executable cmTC_a29ec
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_864a1/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_864a1.dir/build.make CMakeFiles/cmTC_864a1.dir/build
-Building CXX object CMakeFiles/cmTC_864a1.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -std=c++11 -o CMakeFiles/cmTC_864a1.dir/feature_tests.cxx.o -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_864a1
-/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_864a1.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_864a1.dir/feature_tests.cxx.o  -o cmTC_864a1  
+Run Build Command:"/usr/bin/make" "cmTC_63836/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_63836.dir/build.make CMakeFiles/cmTC_63836.dir/build
+Building CXX object CMakeFiles/cmTC_63836.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -std=c++11 -o CMakeFiles/cmTC_63836.dir/feature_tests.cxx.o -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_63836
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63836.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_63836.dir/feature_tests.cxx.o  -o cmTC_63836  
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -385,13 +385,13 @@ Linking CXX executable cmTC_864a1
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3a7cd/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3a7cd.dir/build.make CMakeFiles/cmTC_3a7cd.dir/build
-Building CXX object CMakeFiles/cmTC_3a7cd.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -std=c++98 -o CMakeFiles/cmTC_3a7cd.dir/feature_tests.cxx.o -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_3a7cd
-/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a7cd.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3a7cd.dir/feature_tests.cxx.o  -o cmTC_3a7cd  
+Run Build Command:"/usr/bin/make" "cmTC_ee088/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ee088.dir/build.make CMakeFiles/cmTC_ee088.dir/build
+Building CXX object CMakeFiles/cmTC_ee088.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -std=c++98 -o CMakeFiles/cmTC_ee088.dir/feature_tests.cxx.o -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_ee088
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee088.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ee088.dir/feature_tests.cxx.o  -o cmTC_ee088  
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -454,25 +454,25 @@ Linking CXX executable cmTC_3a7cd
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cc185/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cc185.dir/build.make CMakeFiles/cmTC_cc185.dir/build
-Building C object CMakeFiles/cmTC_cc185.dir/CheckIncludeFile.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_cc185.dir/CheckIncludeFile.c.o   -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_cc185
-/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc185.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc185.dir/CheckIncludeFile.c.o  -o cmTC_cc185  
+Run Build Command:"/usr/bin/make" "cmTC_cc323/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cc323.dir/build.make CMakeFiles/cmTC_cc323.dir/build
+Building C object CMakeFiles/cmTC_cc323.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_cc323.dir/CheckIncludeFile.c.o   -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_cc323
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc323.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc323.dir/CheckIncludeFile.c.o  -o cmTC_cc323  
 
 
 Determining if the pthread_create exist passed with the following output:
 Change Dir: /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0ae16/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0ae16.dir/build.make CMakeFiles/cmTC_0ae16.dir/build
-Building C object CMakeFiles/cmTC_0ae16.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_0ae16.dir/CheckSymbolExists.c.o   -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_0ae16
-/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ae16.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0ae16.dir/CheckSymbolExists.c.o  -o cmTC_0ae16  
+Run Build Command:"/usr/bin/make" "cmTC_46eaf/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_46eaf.dir/build.make CMakeFiles/cmTC_46eaf.dir/build
+Building C object CMakeFiles/cmTC_46eaf.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11   -o CMakeFiles/cmTC_46eaf.dir/CheckSymbolExists.c.o   -c "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_46eaf
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46eaf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_46eaf.dir/CheckSymbolExists.c.o  -o cmTC_46eaf  
 
 File /Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */

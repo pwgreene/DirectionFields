@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named fieldViewer
+# Target rules for targets named viewer
 
 # Build rule for target.
-fieldViewer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 fieldViewer
-.PHONY : fieldViewer
+viewer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 viewer
+.PHONY : viewer
 
 # fast build rule for target.
-fieldViewer/fast:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/build
-.PHONY : fieldViewer/fast
+viewer/fast:
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/build
+.PHONY : viewer/fast
 
 #=============================================================================
 # Target rules for targets named glfw
@@ -155,7 +155,7 @@ src/camera.o: src/camera.cpp.o
 
 # target to build an object file
 src/camera.cpp.o:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/camera.cpp.o
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/camera.cpp.o
 .PHONY : src/camera.cpp.o
 
 src/camera.i: src/camera.cpp.i
@@ -164,7 +164,7 @@ src/camera.i: src/camera.cpp.i
 
 # target to preprocess a source file
 src/camera.cpp.i:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/camera.cpp.i
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/camera.cpp.i
 .PHONY : src/camera.cpp.i
 
 src/camera.s: src/camera.cpp.s
@@ -173,7 +173,7 @@ src/camera.s: src/camera.cpp.s
 
 # target to generate assembly for a file
 src/camera.cpp.s:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/camera.cpp.s
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/camera.cpp.s
 .PHONY : src/camera.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -182,7 +182,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -191,7 +191,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -200,7 +200,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/particlesystem.o: src/particlesystem.cpp.o
@@ -209,7 +209,7 @@ src/particlesystem.o: src/particlesystem.cpp.o
 
 # target to build an object file
 src/particlesystem.cpp.o:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/particlesystem.cpp.o
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/particlesystem.cpp.o
 .PHONY : src/particlesystem.cpp.o
 
 src/particlesystem.i: src/particlesystem.cpp.i
@@ -218,7 +218,7 @@ src/particlesystem.i: src/particlesystem.cpp.i
 
 # target to preprocess a source file
 src/particlesystem.cpp.i:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/particlesystem.cpp.i
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/particlesystem.cpp.i
 .PHONY : src/particlesystem.cpp.i
 
 src/particlesystem.s: src/particlesystem.cpp.s
@@ -227,7 +227,7 @@ src/particlesystem.s: src/particlesystem.cpp.s
 
 # target to generate assembly for a file
 src/particlesystem.cpp.s:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/particlesystem.cpp.s
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/particlesystem.cpp.s
 .PHONY : src/particlesystem.cpp.s
 
 src/recorder.o: src/recorder.cpp.o
@@ -236,7 +236,7 @@ src/recorder.o: src/recorder.cpp.o
 
 # target to build an object file
 src/recorder.cpp.o:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/recorder.cpp.o
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/recorder.cpp.o
 .PHONY : src/recorder.cpp.o
 
 src/recorder.i: src/recorder.cpp.i
@@ -245,7 +245,7 @@ src/recorder.i: src/recorder.cpp.i
 
 # target to preprocess a source file
 src/recorder.cpp.i:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/recorder.cpp.i
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/recorder.cpp.i
 .PHONY : src/recorder.cpp.i
 
 src/recorder.s: src/recorder.cpp.s
@@ -254,7 +254,7 @@ src/recorder.s: src/recorder.cpp.s
 
 # target to generate assembly for a file
 src/recorder.cpp.s:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/recorder.cpp.s
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/recorder.cpp.s
 .PHONY : src/recorder.cpp.s
 
 src/starter3_util.o: src/starter3_util.cpp.o
@@ -263,7 +263,7 @@ src/starter3_util.o: src/starter3_util.cpp.o
 
 # target to build an object file
 src/starter3_util.cpp.o:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/starter3_util.cpp.o
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/starter3_util.cpp.o
 .PHONY : src/starter3_util.cpp.o
 
 src/starter3_util.i: src/starter3_util.cpp.i
@@ -272,7 +272,7 @@ src/starter3_util.i: src/starter3_util.cpp.i
 
 # target to preprocess a source file
 src/starter3_util.cpp.i:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/starter3_util.cpp.i
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/starter3_util.cpp.i
 .PHONY : src/starter3_util.cpp.i
 
 src/starter3_util.s: src/starter3_util.cpp.s
@@ -281,7 +281,7 @@ src/starter3_util.s: src/starter3_util.cpp.s
 
 # target to generate assembly for a file
 src/starter3_util.cpp.s:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/starter3_util.cpp.s
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/starter3_util.cpp.s
 .PHONY : src/starter3_util.cpp.s
 
 src/vertexrecorder.o: src/vertexrecorder.cpp.o
@@ -290,7 +290,7 @@ src/vertexrecorder.o: src/vertexrecorder.cpp.o
 
 # target to build an object file
 src/vertexrecorder.cpp.o:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/vertexrecorder.cpp.o
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/vertexrecorder.cpp.o
 .PHONY : src/vertexrecorder.cpp.o
 
 src/vertexrecorder.i: src/vertexrecorder.cpp.i
@@ -299,7 +299,7 @@ src/vertexrecorder.i: src/vertexrecorder.cpp.i
 
 # target to preprocess a source file
 src/vertexrecorder.cpp.i:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/vertexrecorder.cpp.i
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/vertexrecorder.cpp.i
 .PHONY : src/vertexrecorder.cpp.i
 
 src/vertexrecorder.s: src/vertexrecorder.cpp.s
@@ -308,7 +308,7 @@ src/vertexrecorder.s: src/vertexrecorder.cpp.s
 
 # target to generate assembly for a file
 src/vertexrecorder.cpp.s:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/src/vertexrecorder.cpp.s
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/src/vertexrecorder.cpp.s
 .PHONY : src/vertexrecorder.cpp.s
 
 # Help Target
@@ -319,7 +319,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... fieldViewer"
+	@echo "... viewer"
 	@echo "... glfw"
 	@echo "... vecmath"
 	@echo "... src/camera.o"

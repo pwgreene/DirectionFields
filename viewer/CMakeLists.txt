@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(fieldViewer)
+project(viewer)
 
 find_package(OpenGL REQUIRED)
 
@@ -19,7 +19,7 @@ elseif(MSVC)
   set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -WX")
 endif()
 
-set (fieldViewer_LIBS ${OPENGL_gl_LIBRARY})
+set (viewer_LIBS ${OPENGL_gl_LIBRARY})
 
 # GLFW
 set(GLFW_INSTALL OFF CACHE BOOL " " FORCE)
@@ -28,15 +28,15 @@ set(GLFW_BUILD_TESTS OFF CACHE BOOL " " FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL " " FORCE)
 set(BUILD_SHARED_LIBS OFF CACHE BOOL " " FORCE)
 add_subdirectory(3rd_party/glfw)
-list(APPEND fieldViewer_LIBS glfw)
-list(APPEND fieldViewer_INCLUDES 3rd_party/glfw/include)
+list(APPEND viewer_LIBS glfw)
+list(APPEND viewer_INCLUDES 3rd_party/glfw/include)
 
 # GLEW - not needed on OS X
 # we add glew source/header directly to the build, no glew library build.
 if (NOT APPLE)
   add_definitions(-DGLEW_STATIC)
-  list(APPEND fieldViewer_INCLUDES 3rd_party/glew/include)
-  list(APPEND fieldViewer_SRC 3rd_party/glew/src/glew.c)
+  list(APPEND viewer_INCLUDES 3rd_party/glew/include)
+  list(APPEND viewer_SRC 3rd_party/glew/src/glew.c)
   SOURCE_GROUP(GLEW FILES 3rd_party/glew/src/glew.c)
 endif()
 
@@ -44,9 +44,9 @@ endif()
 # vecmath include directory
 include_directories(vecmath/include)
 add_subdirectory(vecmath)
-list (APPEND fieldViewer_LIBS vecmath)
-list (APPEND fieldViewer_INCLUDES vecmath/include)
-list (APPEND fieldViewer_SRC
+list (APPEND viewer_LIBS vecmath)
+list (APPEND viewer_INCLUDES vecmath/include)
+list (APPEND viewer_SRC
   src/main.cpp
   src/starter3_util.cpp
   src/camera.cpp
@@ -54,7 +54,7 @@ list (APPEND fieldViewer_SRC
   src/vertexrecorder.cpp
   src/particlesystem.cpp
 )
-list (APPEND fieldViewer_HEADER
+list (APPEND viewer_HEADER
   src/gl.h
   src/starter3_util.h
   src/camera.h
@@ -63,6 +63,6 @@ list (APPEND fieldViewer_HEADER
   src/particlesystem.h
 )
 
-add_executable(fieldViewer ${fieldViewer_SRC} ${fieldViewer_HEADER})
-target_include_directories(fieldViewer PUBLIC ${fieldViewer_INCLUDES})
-target_link_libraries(fieldViewer ${fieldViewer_LIBS})
+add_executable(viewer ${viewer_SRC} ${viewer_HEADER})
+target_include_directories(viewer PUBLIC ${viewer_INCLUDES})
+target_link_libraries(viewer ${viewer_LIBS})

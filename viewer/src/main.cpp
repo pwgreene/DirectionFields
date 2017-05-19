@@ -25,13 +25,14 @@ namespace
 
     void initRendering();
     
-    bool NPR_RENDER = false;
+    bool NPR_RENDER = true;
 
     // initialized in main()
     Vector3f MESH_COLOR;
     Vector3f MESH_AMBIENT;
     Vector3f FIELD_COLOR;
     Vector3f FIELD_AMBIENT;
+    Vector3f BACKGROUND;
     
     // Some constants
     
@@ -206,8 +207,8 @@ namespace
             
             vecn.push_back(v_n);
         }
-        FIELD_BAR_LENGTH = totalEdgeLen / totalEdgeForAvg /1.5; // estimated avg edge length compuation - NOT EXACT!
-        FIELD_BAR_WIDTH = FIELD_BAR_LENGTH * .04;
+        FIELD_BAR_LENGTH = totalEdgeLen / totalEdgeForAvg /2.0; // estimated avg edge length compuation - NOT EXACT!
+        FIELD_BAR_WIDTH = FIELD_BAR_LENGTH * .02;
         SCALE = .5/FIELD_BAR_LENGTH;
         printf("%lu, %lu, %lu\n", vecv.size(), vecn.size(), vecf.size());
         printf("scale: %f\n", FIELD_BAR_LENGTH);
@@ -256,7 +257,7 @@ namespace
     
     void drawField() {
         GLProgram gl(program_light, program_color, &camera);
-        gl.updateMaterial(FIELD_COLOR, FIELD_AMBIENT);
+        gl.updateMaterial(FIELD_COLOR, FIELD_AMBIENT, Vector3f(0, 0, 0), 1.0, 1.0, BACKGROUND);
         for (int i = 0; i < vecv.size(); i++) {
             Vector3f a(0, 1, 0); //default orientation of cylinder
             Vector3f axis = Vector3f::cross(a, X[i]);
@@ -300,7 +301,7 @@ namespace
         // read vertices and face indices from vecv, vecn, vecf
         GLProgram gl(program_light, program_color, &camera);
         gl.updateLight(LIGHT_POS, LIGHT_COLOR.xyz()); // once per frame
-        gl.updateMaterial(MESH_COLOR, MESH_AMBIENT);
+        gl.updateMaterial(MESH_COLOR, MESH_AMBIENT, Vector3f(0, 0, 0), 1.0, 1.0, BACKGROUND);
         gl.updateModelMatrix(Matrix4f::uniformScaling(SCALE));
         GeometryRecorder rec(vecf.size() * 3);
         for (vector<unsigned> f : vecf) {
@@ -335,16 +336,20 @@ namespace
     // Set up OpenGL, define the callbacks and start the main loop
     int main(int argc, char** argv)
     {
+        NPR_RENDER = stoi(argv[1]);
         if (NPR_RENDER) {
+            cout << "Displaying with NPR texture\n";
             MESH_COLOR = Vector3f(1.0f, 1.0f, 1.0f);
             MESH_AMBIENT = 1.0 * MESH_COLOR;
             FIELD_COLOR = Vector3f(.6f, .6f, .6f);
             FIELD_AMBIENT = 0 * FIELD_COLOR;
+            BACKGROUND = Vector3f(1.0f, 1.0f, 1.0f);
         } else {
-            MESH_COLOR = Vector3f(0.1f, 0.66f, 0.1f);
+            MESH_COLOR = Vector3f(0.1f, 0.1f, 0.8f);
             MESH_AMBIENT = .3 * MESH_COLOR;
             FIELD_COLOR = Vector3f(1.0f, 0.6f, 0.2f);
             FIELD_AMBIENT = .7 * FIELD_COLOR;
+            BACKGROUND = Vector3f(0.0f, 0.0f, 0.0f);
         }
         
         GLFWwindow* window = createOpenGLWindow(1024, 1024, "Assignment 3");
@@ -374,7 +379,6 @@ namespace
         camera.SetPerspective(50);
         camera.SetDistance(20);
 
-        // Setup particle system
         loadMesh();
         loadField();
         

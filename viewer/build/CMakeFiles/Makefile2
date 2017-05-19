@@ -60,40 +60,40 @@ CMAKE_SOURCE_DIR = "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/view
 CMAKE_BINARY_DIR = "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build"
 
 #=============================================================================
-# Target rules for target CMakeFiles/fieldViewer.dir
+# Target rules for target CMakeFiles/viewer.dir
 
 # All Build rule for target.
-CMakeFiles/fieldViewer.dir/all: 3rd_party/glfw/src/CMakeFiles/glfw.dir/all
-CMakeFiles/fieldViewer.dir/all: vecmath/CMakeFiles/vecmath.dir/all
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/depend
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target fieldViewer"
-.PHONY : CMakeFiles/fieldViewer.dir/all
+CMakeFiles/viewer.dir/all: 3rd_party/glfw/src/CMakeFiles/glfw.dir/all
+CMakeFiles/viewer.dir/all: vecmath/CMakeFiles/vecmath.dir/all
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/depend
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles" --progress-num=23,24,25,26,27,28,29 "Built target viewer"
+.PHONY : CMakeFiles/viewer.dir/all
 
 # Include target in all.
-all: CMakeFiles/fieldViewer.dir/all
+all: CMakeFiles/viewer.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/fieldViewer.dir/rule: cmake_check_build_system
+CMakeFiles/viewer.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles" 29
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fieldViewer.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/viewer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles" 0
-.PHONY : CMakeFiles/fieldViewer.dir/rule
+.PHONY : CMakeFiles/viewer.dir/rule
 
 # Convenience name for target.
-fieldViewer: CMakeFiles/fieldViewer.dir/rule
+viewer: CMakeFiles/viewer.dir/rule
 
-.PHONY : fieldViewer
-
-# clean rule for target.
-CMakeFiles/fieldViewer.dir/clean:
-	$(MAKE) -f CMakeFiles/fieldViewer.dir/build.make CMakeFiles/fieldViewer.dir/clean
-.PHONY : CMakeFiles/fieldViewer.dir/clean
+.PHONY : viewer
 
 # clean rule for target.
-clean: CMakeFiles/fieldViewer.dir/clean
+CMakeFiles/viewer.dir/clean:
+	$(MAKE) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/clean
+.PHONY : CMakeFiles/viewer.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/viewer.dir/clean
 
 .PHONY : clean
 
@@ -140,7 +140,7 @@ clean: CMakeFiles/fieldViewer.dir/clean
 3rd_party/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f 3rd_party/glfw/src/CMakeFiles/glfw.dir/build.make 3rd_party/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f 3rd_party/glfw/src/CMakeFiles/glfw.dir/build.make 3rd_party/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles" --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target glfw"
 .PHONY : 3rd_party/glfw/src/CMakeFiles/glfw.dir/all
 
 # Include target in all.
@@ -195,7 +195,7 @@ vecmath/preinstall:
 vecmath/CMakeFiles/vecmath.dir/all:
 	$(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/depend
 	$(MAKE) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles" --progress-num=22,23,24,25,26,27,28,29 "Built target vecmath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/Parker/Documents/MIT/Junior Spring/6.838/project/viewer/build/CMakeFiles" --progress-num=15,16,17,18,19,20,21,22 "Built target vecmath"
 .PHONY : vecmath/CMakeFiles/vecmath.dir/all
 
 # Include target in all.

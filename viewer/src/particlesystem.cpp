@@ -35,7 +35,8 @@ void GLProgram::updateMaterial(Vector3f diffuseColor,
     Vector3f ambientColor,
     Vector3f specularColor,
     float shininess,
-    float alpha) const {
+    float alpha,
+    Vector3f backgroundColor) const {
     int loc = glGetUniformLocation(active_program, "diffColor");
     glUniform3fv(loc, 1, diffuseColor);
     if (ambientColor.x() < 0) {
@@ -49,7 +50,7 @@ void GLProgram::updateMaterial(Vector3f diffuseColor,
     glUniform1f(loc, shininess);
     loc = glGetUniformLocation(active_program, "alpha");
     glUniform1f(loc, alpha);
-    glClearColor(1.0f, 1.0f, 1.0f, 0.0f);	// White Background
+    glClearColor(backgroundColor[0], backgroundColor[1], backgroundColor[2], 0.0f);	// White Background
 }
 
 void GLProgram::updateLight(Vector3f pos, Vector3f color) const {
