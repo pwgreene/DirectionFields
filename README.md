@@ -12,4 +12,4 @@ Additionally, you can add arguments for the parameters s and n (default 0 and 1 
 
 You can visualize the direction field in NPR style by adding the --npr option:
 
-```$ main.py moomoo.off -s 0 -n 4 --npr```
+```$ main.py cup.off -s 0 -n 4 --npr```
