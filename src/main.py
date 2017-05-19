@@ -76,9 +76,9 @@ def main(argv):
     obj_name = filename.split(".")[0]
     # call C++ executable (make sure its built first in /viewer/build directory -- in root)
     if npr:
-        os.system("cat ../data/"+obj_name+".off ../data/"+obj_name+".txt | ../viewer/build/NPRViewer")
+        os.system("cat ../data/"+obj_name+".off ../data/"+obj_name+".txt | ../viewer/build/viewer 1")
     else:
-        os.system("cat ../data/"+obj_name+".off ../data/"+obj_name+".txt | ../viewer/build/fieldViewer")
+        os.system("cat ../data/"+obj_name+".off ../data/"+obj_name+".txt | ../viewer/build/viewer 0")
 
 
 if __name__ == "__main__":
