@@ -4,7 +4,10 @@ The direction field is computed using Numpy and Scipy libraries. The visualizer 
 
 To compute and visualize a direction field on mesh, you must run main.py and input a .off file. For example:
 
-```$ main.py moomoo.off```
+```
+$ cd src
+$ main.py moomoo.off
+```
 
 Additionally, you can add arguments for the parameters s and n (default 0 and 1 respectively):
 
