@@ -1,5 +1,6 @@
-Build Instructions (Athena with Makefile)
+Build Instructions: (tested on Mac and Linux Ubuntu)
 ==================
+$ rm -r build
 $ mkdir build
 $ cd build
 $ cmake ..
